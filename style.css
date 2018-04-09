@@ -1,107 +1,82 @@
-body{
-    background: url('img/bg.png') no-repeat 50% 50%;
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-
-.container{
+body {
+  background: url("img/bg.png") no-repeat 50% 50%;
+  background-size: cover;
+  color: white;
+  text-align: center; }
+  body .container {
     border: 2px solid white;
-    margin: 25px;
-}
+    margin: 25px; }
+    @media all and (min-width: 768px) {
+      body .container {
+        margin: 25px auto; } }
+    body .container h2 {
+      font-family: Loved by the King, sans-serif;
+      text-transform: uppercase;
+      font-size: 45px;
+      text-align: center; }
+    body .container h3 {
+      font-family: Loved by the King, sans-serif;
+      text-transform: uppercase;
+      font-size: 32px;
+      line-height: 42px; }
+      @media all and (min-width: 768px) {
+        body .container h3 {
+          font-size: 35px; } }
+    @media all and (min-width: 768px) {
+      body .container br {
+        display: none; } }
+    body .container p {
+      font-size: 30px;
+      font-family: Pacifico, cursive, sans-serif; }
+    body .container .established {
+      margin-top: 25px; }
+    body .container .logo img {
+      display: block;
+      width: 100%;
+      margin: 50px auto; }
+      @media all and (min-width: 768px) {
+        body .container .logo img {
+          width: 80%; } }
+    body .container .oyster img {
+      display: block;
+      width: 25%;
+      margin: 0 auto;
+      max-width: 769px; }
+    body .container .products {
+      margin: 50px auto 25px; }
+      body .container .products h2 span.cursive {
+        font-family: Dawning of a New Day, cursive, sans-serif;
+        text-transform: lowercase;
+        position: relative;
+        top: -10px;
+        margin: 0 20px; }
+      body .container .products h2 span.dot {
+        font-size: 60px;
+        visibility: hidden; }
+        @media all and (min-width: 768px) {
+          body .container .products h2 span.dot {
+            visibility: visible;
+            margin: 0 20px; } }
+    body .container .hours {
+      margin-bottom: 25px; }
+      @media all and (min-width: 768px) {
+        body .container .hours h3 span.dot {
+          margin: 0 10px; } }
+    body .container .town {
+      margin-bottom: 25px; }
+    body .container .contact a {
+      font-size: 24px;
+      color: white;
+      font-family: Loved by the King, sans-serif;
+      display: block;
+      margin: 0 auto 5px;
+      text-decoration: none;
+      letter-spacing: 1.25px; }
+      body .container .contact a:hover {
+        color: #cecece;
+        text-decoration: none; }
+    body .container .contact .social a {
+      display: inline-block;
+      margin: 0 5px 10px; }
 
-@media all and (min-width: 768px){
-    .container{
-        margin: 25px auto;
-    }
-}
-
-.established{
-    margin-top: 25px;
-}
-
-.logo img{
-    display: block;
-    width: 100%;
-    margin: 50px auto;
-}
-
-@media all and (min-width: 768px){
-    .logo img{
-        width: 80%;
-    }
-}
-
-.oyster img{
-    display: block;
-    width: 25%;
-    margin: 0 auto;
-    max-width: 769px;
-}
-
-.products{
-    margin: 50px auto 25px;
-}
-
-.products h2{
-    font-family: Loved by the King, sans-serif;
-    text-transform: uppercase;
-    font-size: 45px;
-    text-align: center;
-}
-
-@media all and (min-width: 768px){
-    br{
-        display: none;
-    }
-}
-
-.products h2 span.cursive{
-    font-family: Dawning of a New Day, cursive, sans-serif;
-    text-transform: lowercase;
-    position: relative;
-    top: -10px;
-    margin: 0 20px;
-}
-
-.products h2 span.dot{
-    font-size: 60px;
-    visibility: hidden;
-}
-
-@media all and (min-width: 768px){
-    .products h2 span.dot{
-        visibility: visible;
-        margin: 0 20px;
-    }
-    
-    .hours h3 span.dot{
-        margin: 0 10px;
-    }
-}
-
-.hours{
-    margin-bottom: 25px;
-}
-
-.hours h3{
-    font-family: Loved by the King, sans-serif;
-    text-transform: uppercase;
-    font-size: 32px;
-    line-height: 42px;
-}
-
-@media all and (min-width: 768px){
-    .hours h3{
-        font-size: 35px;
-    }
-}
-
-.established p, .town p{
-    font-size: 30px;
-    font-family: Pacifico, cursive, sans-serif;
-}
-
-.town{
-    margin-bottom: 25px;
-}
+/*# sourceMappingURL=style.css.map */
